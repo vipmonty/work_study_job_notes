@@ -1,0 +1,90 @@
+
+
+To print something to the console:
+console.log("Example") ;
+
+Declaring a Variable:
+var x;
+
+Assigning a Variable:
+x = 24;
+
+Declaring and Assigning a Variable:
+var x = 24
+
+Adding with Variable:
+var x = 23+1;
+
+Subtracting with Variable:
+var x = 25-1;
+
+Division:
+var x = 100 / 10;
+
+Increment a number or Variable:
+var myVar = 87;
+
+myVar + 1; 
+or
+myVar++;
+
+Decrementing a Variable/number:
+var myVar = 87
+
+myVar -1;
+or
+myVar--;
+
+Multiplication:
+var x = 24 * 1;
+
+Remainder:
+var x;
+x = 10%2;
+
+Using escape characters to display text:
+ex) this command will display ""'s in out put:
+var firstName = "\"Viphakone\""
+
+CODE OUTPUT
+\'   single quote
+\"   double quote
+\\   backslash
+\n   newline
+\r   carriage return
+\t   tab
+\b   backspace
+\f   form feed
+
+TO GET LENGTH: EQUIVILENT TO LEN() IN PYTHON:
+var my_name = "Viphakone";
+console.log(my_name)
+var firstName = "\"Vip\""
+console.log(firstName.length)
+
+INDEXING STRING OR LIST:
+var my_name = "Viphakone";
+console.log(my_name)
+var firstName = "\"Vip\""
+console.log(firstName[1])
+
+FUNCTIONS:
+function myFunction(first, last) {
+    var first = first;
+    var last = last;
+    results = "My name is" + first + " " + last;
+    return results;
+}
+
+console.log(myFunction("Vip", "Monty"))
+
+ARRAYS/LIST:
+var myArray = ["dog", 24, "bear", 23]
+console.log(myArray[1])
+
+FOR LOOP:
+
+const myArray = ["dog", 24, "bear", 23];
+for (let i = 0; i < myArray.length - 1; i++) {
+    console.log(myArray[i]);
+}
